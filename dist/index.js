@@ -16,8 +16,8 @@ Object.defineProperty(exports, "Button", {
   }
 });
 
-var _index = _interopRequireDefault(require("./Button/index"));
+var _index = _interopRequireDefault(require("./components/Button/index"));
 
-var _index2 = _interopRequireDefault(require("./Badge/index"));
+var _index2 = _interopRequireDefault(require("./components/Badge/index"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

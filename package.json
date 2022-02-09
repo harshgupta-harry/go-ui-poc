@@ -1,8 +1,24 @@
 {
   "name": "go-ui-poc",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "private": false,
   "author": "Harsh Gupta",
+  "description": "POC for go-ui",
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshgupta-harry/go-ui-poc.git"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.2",

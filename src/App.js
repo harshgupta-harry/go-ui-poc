@@ -1,23 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import { Badge, Button } from './lib/index';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Button label="Submit" styles={{ margin: 40 }} />
+      <Badge value={10} styles={{ margin: 40 }} />
     </div>
   );
 }
